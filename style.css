@@ -1,0 +1,278 @@
+body{
+    margin: 0;
+  background-color: #1b1b1b;
+}
+header {
+    background-color: #1b1b1b;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 30px;
+    position: sticky;top: 0px;
+    z-index: 1000;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  nav ul li {
+    margin-left: 20px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+    font-family:"bold" ;
+  }
+  nav ul li a:hover {
+    text-shadow:0px 0px 10px #ffffff;
+
+  }
+@font-face {
+  font-family: "bold";
+  src: url(fonts/Bold.ttf);
+}
+@font-face {
+  font-family: "Light";
+  src: url(fonts/Light.ttf);
+}
+@font-face {
+  font-family: "graphik";
+  src: url(fonts/GraphikArabicBlack.otf);
+}
+.logo{
+  font-family: "Light";
+
+}
+.valedbaner{
+  display: flex;
+  border: 1px solid black;
+  margin: 20px;
+  border-radius: 30px;
+}
+.baner{
+ 
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 30px;
+    
+}
+.valedamozesh{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+
+}
+.chatgpt_work{
+  border: 1px solid black;
+  border-radius: 10px ;
+  display: flex;
+  width: 250px; 
+  height: 300px;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffffff;
+  box-shadow:0px 10px 10px black;
+  transition:transform 0.3s ease, box-shadow 0.3s ease;
+}
+.chatgpt_work:hover{
+  transform: scale(1.05) rotate(-1deg);
+  box-shadow: 0px 12px 25px rgba(0, 0, 0, o.3);
+  background: linear-gradient(190deg,#ffffff,#501d1d);
+  color: #fff;
+}
+.icon_gpt{
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  position: relative;top: 20px;
+  background-image: url(images/image_gpt.png);
+  background-size: cover;
+  
+}
+
+.matn_gpt{
+  font-family: "graphik";
+  position: relative;top: 60px;
+  font-size: 30px;
+  
+
+}
+
+
+.adobe_ps{
+  border: 1px solid black;
+  border-radius: 10px ;
+  display: flex;
+  width: 250px; 
+  height: 300px;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffffff;
+  box-shadow:0px 10px 10px black;
+  transition:transform 0.3s ease, box-shadow 0.3s ease;
+}
+.adobe_ps:hover{
+  transform: scale(1.05) rotate(-1deg);
+  box-shadow: 0px 12px 25px rgba(0, 0, 0, o.3);
+  background: linear-gradient(135deg,#060041,#9e86c4);
+  color: #fff;
+}
+.icon_ps{
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  position: relative;top: 20px;
+  background-image: url(images/image_psd.png);
+  background-size:cover;
+  
+}
+
+.matn_ps{
+  font-family: "graphik";
+  position: relative;top: 60px;
+  font-size: 30px;
+  text-align: center;
+
+}
+
+.cover_insta{
+  border: 1px solid black;
+  border-radius: 10px ;
+  display: flex;
+  width: 250px; 
+  height: 300px;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffffff;
+  box-shadow:0px 10px 10px black;
+  transition:transform 0.3s ease, box-shadow 0.3s ease;
+}
+.cover_insta:hover{
+  transform: scale(1.05) rotate(-1deg) ;
+  box-shadow: 0px 12px 25px rgba(0, 0, 0, o.3);
+  background: linear-gradient(135deg,#f36500,#4400ff);
+  color: #fff;
+}
+.icon_insta{
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  position: relative;top: 20px;
+  background-image: url(images/image_insta.jpg);
+  background-size:cover;
+  
+}
+
+.matn_insta{
+  font-family: "graphik";
+  position: relative;top: 60px;
+  font-size: 30px;
+  text-align: center;
+
+}
+.valeddownlod{
+margin: 20px;
+position: relative;
+
+
+}
+.downlod_fill{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: auto;
+  border-radius: 30px;
+}
+.downlod_fill:hover{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: auto;
+  border-radius: 30px;
+  cursor:pointer;
+}
+.valdsculur{
+  width: 49%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  position: absolute;top: 8px;left: 50%;
+
+}
+.arrow_left{
+  height: 100px;
+  width: 100px;
+  background: none;
+  border: none;
+
+}
+.arrow_left:hover{
+  height: 100px;
+  width: 100px;
+  background: none;
+  border: none;
+cursor: pointer;
+}
+.arrow_right{
+  height: 100px;
+  width: 100px;
+  background: none;
+  border: none;
+  
+}
+.arrow_right:hover{
+  height: 100px;
+  width: 100px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+mark{
+  background-color: blue;
+}
+.imge{
+  width: 200px;   /* یا هر اندازه‌ای */
+  height: 200px;  /* یا هر اندازه‌ای */
+  overflow: hidden; /* تا چیزی بیرون نزنه */
+ background-color: #ffffff;
+  display: inline-block;
+  box-shadow: 0px 0px 20px black;
+  border-radius: 20px;
+  
+  
+}
+img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;  /* خیلی مهم */
+  
+}
+.arrow{
+  width: 20%;
+}
+.downlod{
+  width: 200px;
+  height: 80px;
+  border:1px solid black ;
+  background-color: #2bff00;
+  border-radius: 30px;
+  position: absolute;top: 250px;left: 66.84%;
+  font-size: 40px;
+}
+
